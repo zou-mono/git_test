@@ -1,3 +1,7 @@
+#+STARTUP: indent
+#+LATEX_HEADER: \usepackage{xeCJK}
+#+LATEX_HEADER: \setCJKmainfont{SimSun}
+
 * this is a test git project
   
 ** Let's do a org-mode test
@@ -12,9 +16,17 @@ $a=+\sqrt{2}$ or $a=-\sqrt{2}$.
 x=\sqrt{b}
 \end{equation}
 
-*** Html
- 
-#+BEGIN_HTML
+*** C++
+
+    #+BEGIN_SRC C++
+        int main()
+        {
+          return 0;
+        }
+    #+END_SRC
+
+
+#+BEGIN_COMMENT
   <div class="cnblogs_Highlighter">
   <pre class="brush:cpp">
   int main()
@@ -23,5 +35,16 @@ x=\sqrt{b}
   }
   </pre>
   </div>
-#+END_HTML
+#+END_COMMENT
+
+*** JAVA
+
+    #+BEGIN_SRC java
+      public static MAX_SIZE;
+
+      public void CreateNewPolygon(IGeometry pGeo, List<Point> PointColl)
+      {
+          
+      }
+    #+END_SRC
 
