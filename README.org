@@ -1,6 +1,7 @@
 #+STARTUP: indent
 #+LATEX_HEADER: \usepackage{xeCJK}
 #+LATEX_HEADER: \setCJKmainfont{SimSun}
+#+HTML_MATHJAX: align:"center" indent:"2em" scale:"100" mathml:nil path:"./MathJax/MathJax.js"
 
 * this is a test git project
   
